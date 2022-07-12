@@ -1,0 +1,235 @@
+/*---------------------
+  Overview
+-----------------------*/
+
+.checkout {
+    padding-top: 50 px;
+    padding-bottom: 40 px;
+}
+
+.checkout__form h4 {
+    color: #1c1c1c;
+    font-weight: 700;
+    border-bottom: 1px solid #1c1c1c;
+    padding-bottom: 20px;
+    margin-bottom: 25px;
+}
+
+.checkout__form p {
+    column-rule: #1c1c1c;
+}
+
+.checkout__input {
+    margin-bottom: 24px;
+}
+
+.checkout__input p {
+    color: black;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.checkout__input label {
+    color: black;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    font-weight: 700;
+}
+
+.checkout__input p span {
+    color: #dd2222;
+}
+
+.checkout__input input {
+    width: 100%;
+    height: 46px;
+    border: 1px solid #1c1c1c;
+    padding-left: 10px;
+    font-size: 16px;
+    color: #1c1c1c;
+    border-radius: 4px;
+}
+
+.checkout__input textarea {
+    width: 100%;
+    height: 60px;
+    border: 1px solid #1c1c1c;
+    padding-left: 10px;
+    font-size: 16px;
+    color: #1c1c1c;
+    border-radius: 4px;
+}
+
+.checkout__input select {
+    width: 100%;
+    height: 46px;
+    border: 1px solid #1c1c1c;
+    padding-left: 10px;
+    font-size: 16px;
+    color: #1c1c1c;
+    border-radius: 4px;
+}
+
+.form-check label {
+    color: #1c1c1c;
+}
+
+.flex-container {
+    display: flex;
+}
+
+img {
+    max-width: 330px;
+}
+
+input[type=file] {
+    margin-top: 20px;
+    border: 0;
+}
+
+/*Dimension*/
+
+.dimension {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.dimension__table {
+    margin-bottom: 30px;
+}
+
+.dimension__table table {
+    width: 100%;
+    text-align: center;
+}
+
+.dimension__table table thead tr {
+    border-bottom: 1px solid #ebebeb;
+}
+
+.dimension__table table thead th {
+    font-size: 20px;
+    font-weight: 700;
+    color: #1c1c1c;
+    padding-bottom: 20px;
+}
+
+.dimension__table table tbody tr td {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.dimension__table table tbody tr td.dimension__id {
+    font-size: 18px;
+    color: #1c1c1c;
+    font-weight: 700;
+    width: 100px;
+}
+
+.dimension__table table tbody tr td.dimension__type {
+    font-size: 18px;
+    color: #1c1c1c;
+    font-weight: 700;
+    width: 150px;
+}
+
+.dimension__table table tbody tr td.dimension__name {
+    font-size: 18px;
+    color: #1c1c1c;
+    font-weight: 700;
+    width: 300px;
+}
+
+.dimension__table table tbody tr td.dimension__action {
+    font-size: 18px;
+    color: #1c1c1c;
+    font-weight: 700;
+    width: 150px;
+}
+
+.dimension__action a{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+/*Price Package*/
+
+.package {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.package__table {
+    margin-bottom: 30px;
+}
+
+.package__table table {
+    width: 100%;
+    text-align: center;
+}
+
+.package__table table thead tr {
+    border-bottom: 1px solid #ebebeb;
+}
+
+.package__table table thead th {
+    font-size: 20px;
+    font-weight: 700;
+    color: #1c1c1c;
+    padding-bottom: 20px;
+}
+
+.package__table table tbody tr td {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.package__table table tbody tr td.dimension__id {
+    font-size: 18px;
+    color: #1c1c1c;
+    font-weight: 700;
+    width: 100px;
+}
+
+
+.package__table table tbody tr td.dimension__name {
+    font-size: 18px;
+    color: #1c1c1c;
+    font-weight: 700;
+    width: 300px;
+}
+
+.package__table table tbody tr td.dimension__duration {
+    font-size: 18px;
+    color: #1c1c1c;
+    font-weight: 700;
+    width: 150px;
+}
+
+.package__table table tbody tr td.dimension__price {
+    font-size: 18px;
+    color: #1c1c1c;
+    font-weight: 700;
+    width: 150px;
+}
+
+.package__table table tbody tr td.dimension__status {
+    font-size: 18px;
+    color: #1c1c1c;
+    font-weight: 700;
+    width: 150px;
+}
+
+.package__table table tbody tr td.dimension__action {
+    font-size: 18px;
+    color: #1c1c1c;
+    font-weight: 700;
+    width: 150px;
+}
+
+.package__action a{
+    font-size: 18px;
+    font-weight: 700;
+}
